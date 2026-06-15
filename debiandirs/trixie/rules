@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	@echo "Using precompiled Go binaries — skipping configure."
+
+override_dh_auto_build:
+	@echo "Using precompiled Go binaries — skipping build."
+
+override_dh_auto_install:
+	mkdir -p debian/golang-1.25-go/usr/lib/go-1.25
+	cp -a go/* debian/golang-1.25-go/usr/lib/go-1.25/

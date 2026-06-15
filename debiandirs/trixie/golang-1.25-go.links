@@ -1,0 +1,2 @@
+usr/lib/go-1.25/bin/go usr/bin/go
+usr/lib/go-1.25/bin/gofmt usr/bin/gofmt
