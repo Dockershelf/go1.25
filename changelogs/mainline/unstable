@@ -1,4 +1,4 @@
-golang-1.25-go (1.25.0.0-1+unstable1) unstable; urgency=medium
+golang-1.25 (1.25.0.0-1+unstable1) unstable; urgency=medium
 
   * Initial Dockershelf repackage of official precompiled Go 1.25.
 
